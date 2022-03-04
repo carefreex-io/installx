@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/carefreex-io/install/common"
+	"github.com/carefreex-io/installx/common"
 	"log"
 	"path"
 )
