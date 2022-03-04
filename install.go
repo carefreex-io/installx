@@ -2,7 +2,7 @@ package main
 
 import (
 	"bytes"
-	"install/common"
+	"github.com/carefreex-io/install/common"
 	"log"
 	"os"
 	"os/exec"

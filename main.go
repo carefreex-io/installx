@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"install/common"
+	"github.com/carefreex-io/install/common"
 	"log"
 	"path"
 )
@@ -47,4 +47,6 @@ func main() {
 	default:
 		log.Fatalf("%v unsupported framework type's value: %v", common.ErrorStr, *frameworkType)
 	}
+
+	log.Fatalf("%v %v installed", common.SuccessStr, options.Path)
 }
